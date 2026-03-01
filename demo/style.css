@@ -1,0 +1,46 @@
+:root {
+    --fg-color: #cccccc;
+    --bg-color: #000000;
+    --link-color: #6c8cff;
+}
+
+body {
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    font-family: monospace;
+    font-size: 1rem;
+    max-width: 80ch;
+    margin: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: "- ";
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+
+.current {
+    font-weight: bold;
+}
